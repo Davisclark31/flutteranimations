@@ -25,10 +25,10 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     final Map<String, Widget> screens = {
       'Lines': Lines(),
-      'Circles': Circles(),
-      'Polygon': Polygon(),
-      'Spiral': Spiral(),
-      'Planets': Planets(),
+      // 'Circles': Circles(),
+      // 'Polygon': Polygon(),
+      // 'Spiral': Spiral(),
+      // 'Planets': Planets(),
     };
 
     List<Widget> children = [];
